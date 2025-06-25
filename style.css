@@ -1,4 +1,30 @@
-.hello {
-    color: red;
-    font-size: 100px;
+:root {
+    color: black;
+    --link-color: #4a76ee;
+    --background-color: white;
+
+}
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+}
+
+html 
+{
+    scroll-behavior: smooth;
+}
+
+body 
+{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+}
+
+a 
+{
+    color: var(--link-color);
+    text-decoration: none;
 }
